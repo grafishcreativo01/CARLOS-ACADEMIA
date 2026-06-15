@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASTER ESTILISMO — ACADEMIA</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            line-height: 1.6;
+            letter-spacing: -0.2px;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+        nav {
+            padding: 40px 0;
+            border-bottom: 1px solid #000000;
+            text-align: center;
+        }
+        .nav-logo {
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
+        header {
+            padding: 140px 0 100px 0;
+            text-align: center;
+        }
+        .hero-tag {
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #666666;
+            margin-bottom: 24px;
+        }
+        h1 {
+            font-size: 56px;
+            font-weight: 800;
+            letter-spacing: -2px;
+            line-height: 1.05;
+            text-transform: uppercase;
+            max-width: 900px;
+            margin: 0 auto 32px auto;
+        }
+        .subtitulo {
+            font-size: 18px;
+            color: #444444;
+            max-width: 650px;
+            margin: 0 auto 48px auto;
+            font-weight: 400;
+        }
+        .btn-black {
+            display: inline-block;
+            background-color: #000000;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 20px 50px;
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            transition: all 0.3s ease;
+            border: 1px solid #000000;
+        }
+        .btn-black:hover {
+            background-color: #ffffff;
+            color: #000000;
+        }
+        section {
+            padding: 120px 0;
+            border-top: 1px solid #eeeeee;
+        }
+        .section-header {
+            margin-bottom: 60px;
+        }
+        .section-label {
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: #999999;
+            margin-bottom: 12px;
+            display: block;
+        }
+        .section-title-large {
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: -1px;
+            text-transform: uppercase;
+        }
+        .manifiesto-texto {
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 1.4;
+            letter-spacing: -0.8px;
+            max-width: 950px;
+        }
+        .grid-programa {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1px;
+            background-color: #eeeeee;
+            border: 1px solid #eeeeee;
+        }
+        .modulo-box {
+            background-color: #ffffff;
+            padding: 50px;
+        }
+        .mod-num {
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: #999999;
+            margin-bottom: 20px;
+        }
+        .modulo-box h3 {
+            font-size: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+            letter-spacing: -0.5px;
+        }
+        .modulo-box p {
+            font-size: 14px;
+            color: #555555;
+            line-height: 1.7;
+        }
+        .oferta-section {
+            text-align: center;
+            background-color: #000000;
+            color: #ffffff;
+            border: none;
+            padding: 140px 0;
+        }
+        .oferta-section .section-label {
+            color: #666666;
+        }
+        .precio-grande {
+            font-size: 80px;
+            font-weight: 800;
+            letter-spacing: -3px;
+            margin: 20px 0;
+        }
+        .detalles-pago {
+            font-size: 12px;
+            letter-spacing: 2px;
+            color: #888888;
+            text-transform: uppercase;
+            margin-bottom: 48px;
+        }
+        .btn-white {
+            display: inline-block;
+            background-color: #ffffff;
+            color: #000000;
+            text-decoration: none;
+            padding: 20px 50px;
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            transition: all 0.3s ease;
+            border: 1px solid #ffffff;
+        }
+        .btn-white:hover {
+            background-color: #000000;
+            color: #ffffff;
+        }
+        @media (max-width: 768px) {
+            h1 { font-size: 38px; }
+            .grid-programa { grid-template-columns: 1fr; }
+            .modulo-box { padding: 30px; }
+            .precio-grande { font-size: 60px; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <div class="nav-logo">HAIR ACADEMY</div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="hero-tag">MASTERCLASS PROFESIONAL</div>
+            <h1>La excelencia en peluquería nace del conocimiento técnico</h1>
+            <p class="subtitulo">Aprende a interpretar el cabello de manera científica, domina los procesos químicos y eleva tu nivel como estilista internacional.</p>
+            <a href="https://wa.link/rjtn4x" target="_blank" class="btn-black">Inscribirme al Master</a>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">01 / FILOSOFÍA</span>
+            </div>
+            <p class="manifiesto-texto">
+                Un color hermoso no depende únicamente del tinte, sino del conocimiento del profesional que lo aplica. Este master fusiona el arte visual con la precisión matemática y química para transformar tu negocio.
+            </p>
+        </div>
+    </section>
+
+    <section id="programa">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">02 / PLAN DE ESTUDIOS</span>
+                <h2 class="section-title-large">Estructura del Master</h2>
+            </div>
+            
+            <div class="grid-programa">
+                <div class="modulo-box">
+                    <div class="mod-num">MÓDULO I</div>
+                    <h3>Colorimetría Científica</h3>
+                    <p>Comprensión del color y su comportamiento químico. Mezcla de tonos primarios, secundarios y terciarios para personalizar y corregir de forma exacta.</p>
+                </div>
+                <div class="modulo-box">
+                    <div class="mod-num">MÓDULO II</div>
+                    <h3>Estrella de Oswald</h3>
+                    <p>Dominio absoluto de la herramienta visual clave. Leyes de oposición para neutralizar de forma matemática reflejos cálidos no deseados.</p>
+                </div>
+                <div class="modulo-box">
+                    <div class="mod-num">MÓDULO III</div>
+                    <h3>Tonos de Base y Reflejos</h3>
+                    <p>Manejo técnico de la escala internacional (1 al 10) y la nomenclatura de matices para aportar profundidad y adaptarlos al tono de piel de cada cliente.</p>
+                </div>
+                <div class="modulo-box">
+                    <div class="mod-num">MÓDULO IV</div>
+                    <h3>Fondos de Aclaración</h3>
+                    <p>Análisis riguroso de los pigmentos internos expuestos durante la decoloración para garantizar resultados impecables y rubios completamente limpios.</p>
+                </div>
+                <div class="modulo-box">
+                    <div class="mod-num">MÓDULO V</div>
+                    <h3>Formulación de Peróxidos</h3>
+                    <p>Activación y volúmenes adecuados (10V, 20V, 30V, 40V). Cómo abrir la cutícula de forma segura cuidando la resistencia y elasticidad capilar.</p>
+                </div>
+                <div class="modulo-box">
+                    <div class="mod-num">MÓDULO VI</div>
+                    <h3>Neutralizaciones</h3>
+                    <p>Fórmulas de matización avanzadas y la aplicación práctica de la Regla del 11 para la creación exacta de reflejos fríos y acabados de lujo.</p>
+                </div>
+                <div class="modulo-box">
+                    <div class="mod-num">MÓDULO VII</div>
+                    <h3>Cobertura de Canas</h3>
+                    <p>Estrategias de pigmentación para cabellos altamente resistentes y montajes técnicos de tendencia como Balayage, Babylights y Money Piece.</p>
+                </div>
+                <div class="modulo-box">
+                    <div class="mod-num">MÓDULO VIII</div>
+                    <h3>Estructura Capilar</h3>
+                    <p>Tricología aplicada al salón: anatomía de la fibra, control del pH, análisis de porosidad y el protocolo definitivo para diagnósticos profesionales seguros.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="inscripcion" class="oferta-section">
+        <div class="container">
+            <span class="section-label">03 / ADMISIÓN</span>
+            <h2 class="section-title-large" style="color: #ffffff;">Inicia Tu Transformación</h2>
+            <div class="precio-grande">$149</div>
+            <div class="detalles-pago">Pago Único • Tasa BCV • Acceso de por vida • Certificación Incluida</div>
+            <a href="curso.html" class="btn-white">Ver Aula Virtual (Demo)</a>
+        </div>
+    </section>
+
+</body>
+</html>
